@@ -1,0 +1,112 @@
+/* CSS for PrincipalWeb.php && Login.php */
+body{
+    font-family: 'Poppins';
+    font-size: 22px;
+}
+
+.backgroundColor{
+    background-color: rgb(179, 80, 236);
+    color:white;
+    border:none;
+    margin:0px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.buttons {
+    justify-content: center;
+    display:flex;
+    
+}
+.labels {
+    width: 20%;
+    height: 0px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-bottom: solid 2px;
+    border: none;
+    border-radius: 2px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.websitedesc{
+    text-align: center;
+}
+
+.error {
+    font-size: 15px;
+    width: 10%;
+    white-space:pre;
+    text-align: left;
+}
+
+.image{
+    position: relative;
+    top: -250px;
+    right: -200px;
+}
+
+.image2{
+    position: relative;
+    top: -250px;
+    right: -950px;
+}
+
+.imageLog{
+    position: relative;
+    top: -180px;
+    right: -200px;
+}
+
+.imageLog2{
+    position: relative;
+    top: -180px;
+    right: -950px;
+}
+.imageL3{
+    position: relative;
+    top: -0px;
+    right: -200px;
+}
+
+.image3{
+    position: relative;
+    top: -0px;
+    right: -950px;
+}
+/*-----------------------------------------------------------------------*/
+
+/*Movies.php*/
+
+.logout{
+    text-align: right;
+    bottom:0px;
+    padding:60px;
+    height: 10px;
+    width: 48%;
+    size:200%;
+    font-size: 100%;
+}
+
+.fields {
+    width: 100%;
+    height: 0px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-bottom: solid 2px;
+    border: none;
+    border-radius: 2px;
+    margin: auto;
+    text-align: center;
+}
+
+.movies {
+    font-size: 15px;
+    column-gap: 3em;
+    columns: 2;
+    text-align: center;
+}
